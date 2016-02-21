@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" type="text/css" href="normalize.css">
+                <link rel="stylesheet" type="text/css" href="gr.css">
+                <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+        </head>
+        <body bgcolor=#F0EAD6>
+                <header>
+                        <h1 id="link-headers"> Forum </h1> 
+                        <hr color:#6C2A7B>
+                </header>
+                <iframe id="forum_embed"
+                 src="javascript:void(0)"
+                 scrolling="no"
+                 frameborder="0"
+                 width="900"
+                 height="700">
+                </iframe>
+                
+                <script type="text/javascript">
+                 document.getElementById("forum_embed").src =
+                  "https://groups.google.com/forum/embed/?place=forum/general-relativity2016" +
+                  "&showsearch=true&showpopout=true&parenturl=" +
+                  encodeURIComponent(window.location.href);
+                </script>
+
+
+
+                <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+                <script src="gr.js"></script>
+        </body>
+</html>
