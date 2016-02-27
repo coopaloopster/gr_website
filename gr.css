@@ -6,7 +6,7 @@ body {
         height: 100px; 
         width: 100px; 
         display: block; 
-        top: 500px; 
+        top: 120px; 
         z-index: 1; 
         left: 562px; 
         position: absolute;
@@ -69,12 +69,18 @@ body {
         margin: 50px auto;
 }
 
-#bgd {
+#bgd{
         width: 1260px;
         height: 1000px;
         display: block;
+        position: relative;
         margin: 20px auto;
 }
+#img-bgd{
+        width: 1260px;
+        height: 1000px;
+}
+
 
 #logo-text {
         color: #6C2A7B;
