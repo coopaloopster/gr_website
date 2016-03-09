@@ -69,6 +69,20 @@ body {
         margin: 50px auto;
 }
 
+#midterm1{
+        display: block;
+        font-size: 100px;
+        text-align:center;
+        margin: 20px auto;
+}
+
+#midterm2{
+        display: block;
+        font-size: 50px;
+        text-align:center;
+        margin: 20px auto;
+}
+
 #bgd{
         width: 1260px;
         height: 1000px;
