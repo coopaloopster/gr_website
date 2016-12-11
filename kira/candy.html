@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body onkeydown="myFunction2()">
+            <img src="logo.jpg">
+            <div>
+            <div id="card_left"> </div>    
+            <div id="card_right"> </div>    
+
+
+            <script>
+            function myFunction2() {
+                candyColors = ['red', 'orange','yellow','green','blue','violet']
+                var a = Math.floor(96*Math.random());
+                var left = document.getElementById( 'card_left' );
+                var right = document.getElementById( 'card_right' );
+                if (a >= 0 && a<15) {
+                    left.style.backgroundImage = "none"
+                    right.style.backgroundImage = "none"
+                    left.style.backgroundColor = candyColors[0];
+                    right.style.backgroundColor = candyColors[0];
+                } else if (a >= 15 && a<30) {
+                    left.style.backgroundImage = "none"
+                    right.style.backgroundImage = "none"
+                    left.style.backgroundColor = candyColors[1];
+                    right.style.backgroundColor = candyColors[1];
+                } else if (a >= 30 && a<45) {
+                    left.style.backgroundImage = "none"
+                    right.style.backgroundImage = "none"
+                    left.style.backgroundColor = candyColors[2];
+                    right.style.backgroundColor = candyColors[2];
+                } else if (a >= 45 && a<60) {
+                    left.style.backgroundImage = "none"
+                    right.style.backgroundImage = "none"
+                    left.style.backgroundColor = candyColors[3];
+                    right.style.backgroundColor = candyColors[3];
+                } else if (a >= 60 && a<75) {
+                    left.style.backgroundImage = "none"
+                    right.style.backgroundImage = "none"
+                    left.style.backgroundColor = candyColors[4];
+                    right.style.backgroundColor = candyColors[4];
+                } else if (a >= 75 && a<90) {
+                    left.style.backgroundImage = "none"
+                    right.style.backgroundImage = "none"
+                    left.style.backgroundColor = candyColors[5];
+                    right.style.backgroundColor = candyColors[5];
+                } else if (a == 90) {
+                    left.style.backgroundImage = "url('gramma_nut_card.png')"
+                    right.style.backgroundImage = "url('gramma_nut_card.png')"
+                } else if (a == 91) {
+                    left.style.backgroundImage = "url('jolly_card.png')"
+                    right.style.backgroundImage = "url('jolly_card.png')"
+                } else if (a == 92) {
+                    left.style.backgroundImage = "url('peppermint_card.png')"
+                    right.style.backgroundImage = "url('peppermint_card.png')"
+                } else if (a == 93) {
+                    left.style.backgroundImage = "url('plumpy_card.png')"
+                    right.style.backgroundImage = "url('plumpy_card.png')"
+                } else if (a == 94) {
+                    left.style.backgroundImage = "url('princess_lolly_card.png')"
+                    right.style.backgroundImage = "url('princess_lolly_card.png')"
+                } else {
+                    left.style.backgroundImage = "url('queen_frost_card.png')"
+                    right.style.backgroundImage = "url('queen_frost_card.png')"
+                }            
+            };
+
+            </script>
+
+
+        </body>
+</html>

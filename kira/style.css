@@ -1,0 +1,27 @@
+
+body {
+        font-family: 'Arvo', serif;
+}
+
+#card_left {
+        height: 300px; 
+        width: 300px; 
+        display: block; 
+        top: 250px; 
+        z-index: 1; 
+        left: 200px; 
+        position: absolute;
+        background:#ff0000;
+}
+
+#card_right {
+        height: 300px; 
+        width: 300px; 
+        display: block; 
+        top: 250px; 
+        z-index: 1; 
+        left: 700px; 
+        position: absolute;
+        background:#ff0000;
+}
+
