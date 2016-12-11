@@ -12,6 +12,7 @@ body {
         left: 200px; 
         position: absolute;
         background:#ff0000;
+        background-position:center;
 }
 
 #card_right {
@@ -23,5 +24,6 @@ body {
         left: 700px; 
         position: absolute;
         background:#ff0000;
+        background-position:center;
 }
 
