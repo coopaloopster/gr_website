@@ -9,6 +9,11 @@
             <div id="card_left"> </div>    
             <div id="card_right"> </div>    
 
+            <style>
+            #left-card, #right-card {
+              background-position: center;
+            }
+            </style>
 
             <script>
             function myFunction2() {
@@ -16,34 +21,44 @@
                 var a = Math.floor(96*Math.random());
                 var left = document.getElementById( 'card_left' );
                 var right = document.getElementById( 'card_right' );
-                if (a >= 0 && a<15) {
-                    left.style.backgroundImage = "none"
-                    right.style.backgroundImage = "none"
+                left.style.backgroundImage = "none"
+                right.style.backgroundImage = "none"
+                right.style.display = 'block';
+                if (a >= 0 && a<9) {
+                    left.style.backgroundColor = candyColors[0];
+                    right.style.display = 'none';
+                } else if (a >= 9 && a<15) {
+                    right.style.display = '';
                     left.style.backgroundColor = candyColors[0];
                     right.style.backgroundColor = candyColors[0];
-                } else if (a >= 15 && a<30) {
-                    left.style.backgroundImage = "none"
-                    right.style.backgroundImage = "none"
+                } else if (a >= 15 && a<24) {
+                    left.style.backgroundColor = candyColors[1];
+                    right.style.display = 'none';
+                } else if (a >= 24 && a<30) {
                     left.style.backgroundColor = candyColors[1];
                     right.style.backgroundColor = candyColors[1];
-                } else if (a >= 30 && a<45) {
-                    left.style.backgroundImage = "none"
-                    right.style.backgroundImage = "none"
+                } else if (a >= 30 && a<39) {
+                    left.style.backgroundColor = candyColors[2];
+                    right.style.display = 'none';
+                } else if (a >= 39 && a<45) {
                     left.style.backgroundColor = candyColors[2];
                     right.style.backgroundColor = candyColors[2];
-                } else if (a >= 45 && a<60) {
-                    left.style.backgroundImage = "none"
-                    right.style.backgroundImage = "none"
+                } else if (a >= 45 && a<54) {
+                    left.style.backgroundColor = candyColors[3];
+                    right.style.display = 'none';
+                } else if (a >= 54 && a<60) {
                     left.style.backgroundColor = candyColors[3];
                     right.style.backgroundColor = candyColors[3];
-                } else if (a >= 60 && a<75) {
-                    left.style.backgroundImage = "none"
-                    right.style.backgroundImage = "none"
+                } else if (a >= 60 && a<69) {
+                    left.style.backgroundColor = candyColors[4];
+                    right.style.display = 'none';
+                } else if (a >= 69 && a<75) {
                     left.style.backgroundColor = candyColors[4];
                     right.style.backgroundColor = candyColors[4];
-                } else if (a >= 75 && a<90) {
-                    left.style.backgroundImage = "none"
-                    right.style.backgroundImage = "none"
+                } else if (a >= 75 && a<84) {
+                    left.style.backgroundColor = candyColors[5];
+                    right.style.display = 'none';
+                } else if (a >= 84 && a<90) {
                     left.style.backgroundColor = candyColors[5];
                     right.style.backgroundColor = candyColors[5];
                 } else if (a == 90) {
