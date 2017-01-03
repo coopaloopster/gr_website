@@ -1,0 +1,155 @@
+body {
+        font-family: 'Arvo', serif;
+}
+
+#truth {
+        height: 100px; 
+        width: 100px; 
+        display: block; 
+        top: 120px; 
+        z-index: 1; 
+        left: 562px; 
+        position: absolute;
+}
+
+
+
+#main-container {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 30px;
+}
+
+#logo-container {
+        margin: 30px;
+}
+
+#logo {
+        width: 50px;
+        height: 50px;
+        display: block;
+        float: left;
+}
+
+#link-headers {
+        color: #6C2A7B;
+        text-align: center;
+}
+
+#bottom-text{
+        color: #6C2A7B;
+        margin: 15px;
+        text-align: center;
+}
+
+#link-body1{
+        font-size: 20px;
+        margin: 100px;
+        text-align: center;
+}
+
+#link-body2{
+        line-height: 160%;
+        font-size: 20px;
+        margin: 50px;
+        text-align: left;
+}
+
+#link-body3{
+        line-height: 160%;
+        font-size: 20px;
+        margin: 20px 20px 50px;
+        text-align: center;
+}
+
+#coming-soon{
+        display: block;
+        font-size: 200px;
+        text-align:center;
+        margin: 50px auto;
+}
+
+#midterm1{
+        display: block;
+        font-size: 100px;
+        text-align:center;
+        margin: 20px auto;
+}
+
+#midterm2{
+        display: block;
+        font-size: 50px;
+        text-align:center;
+        margin: 20px auto;
+}
+
+#bgd{
+        width: 1260px;
+        height: 1000px;
+        display: block;
+        position: relative;
+        margin: 20px auto;
+}
+#img-bgd{
+        width: 1260px;
+        height: 1000px;
+}
+
+
+#logo-text {
+        color: #6C2A7B;
+        font-size: 25px;
+        margin-left: 30px;
+        float: left;
+}
+
+.buttons {
+        display: block;
+        font-size: 30px;
+        background: #568A52;
+        color: #6C2A7B;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.hw-buttons {
+        display: block;
+        font-size: 30px;
+        background: #568A52;
+        width = 100px;
+        color: #6C2A7B;
+        text-align: center;
+        margin: 10px 400px;
+}
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
